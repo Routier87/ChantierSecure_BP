@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "chantier:carte_ouvrier",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "carte_ouvrier"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.chantier:carte_ouvrier.name"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:allow_off_hand": true,
+      "minecraft:glint": true
+    }
+  }
+}
