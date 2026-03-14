@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:block": {
+    "description": {
+      "identifier": "chantier:coffre_securise",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "tile.chantier:coffre_securise.name",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 12
+      },
+      "minecraft:friction": 0.6,
+      "minecraft:map_color": "#7a5a36",
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "coffre_securise",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:custom_components": [
+        "chantier:secure_crate"
+      ]
+    }
+  }
+}
