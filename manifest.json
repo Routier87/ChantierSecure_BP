@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Chantier Secure BP",
+    "description": "Carte Ouvrier + Coffre Securise",
+    "uuid": "0d70ecaf-55e8-4a93-b662-c74dc31cf6d2",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "08c36c06-2da4-4f7a-b9cf-5e3906e4f6ce",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "2d8c24ef-f6d5-4f54-a20f-5c2871ea9a89",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "5db7c8ec-2a8f-4922-8b16-2df9d1579864",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.13.0"
+    }
+  ],
+  "metadata": {
+    "authors": ["OpenAI"],
+    "product_type": "addon"
+  }
+}
